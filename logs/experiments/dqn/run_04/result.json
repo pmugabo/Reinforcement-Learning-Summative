@@ -1,0 +1,21 @@
+{
+  "algorithm": "dqn",
+  "seed": 1004,
+  "config": {
+    "learning_rate": 0.001,
+    "gamma": 0.99,
+    "buffer_size": 15000,
+    "batch_size": 128,
+    "exploration_fraction": 0.35,
+    "exploration_final_eps": 0.05,
+    "target_update_interval": 500
+  },
+  "metrics": {
+    "mean_reward": 399.99859440602853,
+    "std_reward": 61.572235331393564,
+    "mean_episode_length": 88.33333333333333,
+    "mean_unmet_ml": 0.38861541311173803,
+    "mean_energy_cost": 27.47360463514504,
+    "failure_rate": 0.16666666666666666
+  }
+}

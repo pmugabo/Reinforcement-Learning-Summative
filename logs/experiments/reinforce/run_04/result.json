@@ -1,0 +1,19 @@
+{
+  "algorithm": "reinforce",
+  "seed": 1004,
+  "config": {
+    "learning_rate": 0.001,
+    "gamma": 0.99,
+    "hidden_size": 128,
+    "entropy_coef": 0.01,
+    "batch_episodes": 8
+  },
+  "metrics": {
+    "mean_reward": 316.1058346708758,
+    "std_reward": 18.57239252935226,
+    "mean_episode_length": 88.33333333333333,
+    "mean_unmet_ml": 0.30097685294429427,
+    "mean_energy_cost": 25.106401507704323,
+    "failure_rate": 0.16666666666666666
+  }
+}

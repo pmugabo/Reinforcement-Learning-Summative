@@ -1,0 +1,21 @@
+{
+  "algorithm": "ppo",
+  "seed": 1008,
+  "config": {
+    "learning_rate": 0.0001,
+    "gamma": 0.999,
+    "n_steps": 512,
+    "batch_size": 64,
+    "gae_lambda": 0.99,
+    "clip_range": 0.2,
+    "ent_coef": 0.015
+  },
+  "metrics": {
+    "mean_reward": 231.20718631045665,
+    "std_reward": 116.67989676307684,
+    "mean_episode_length": 58.0,
+    "mean_unmet_ml": 0.6846739882187731,
+    "mean_energy_cost": 12.882080805541195,
+    "failure_rate": 0.8333333333333334
+  }
+}

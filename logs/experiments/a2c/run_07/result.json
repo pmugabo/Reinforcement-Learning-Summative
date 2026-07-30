@@ -1,0 +1,21 @@
+{
+  "algorithm": "a2c",
+  "seed": 1007,
+  "config": {
+    "learning_rate": 0.0007,
+    "gamma": 0.97,
+    "n_steps": 20,
+    "gae_lambda": 0.92,
+    "ent_coef": 0.03,
+    "vf_coef": 0.6,
+    "max_grad_norm": 0.5
+  },
+  "metrics": {
+    "mean_reward": 340.3894336203547,
+    "std_reward": 105.82543820528457,
+    "mean_episode_length": 86.58333333333333,
+    "mean_unmet_ml": 1.2595766351030664,
+    "mean_energy_cost": 24.298974891530538,
+    "failure_rate": 0.4166666666666667
+  }
+}
